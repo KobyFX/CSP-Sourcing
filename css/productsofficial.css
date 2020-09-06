@@ -33,6 +33,11 @@ body {
     left: 42px;
     top: 35px;
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+                .container h2::after {
+                    left: 70px;
+                }
+            }
 
 .row {
     margin-top: 0px;
