@@ -6,6 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - CSP Sourcing</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/f053070eb8.js"></script>
+
+    <!--Slick Slider-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Custom Stylesheet -->
     <!--link-stylesheet----------->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="css/contactofficial.css" />
@@ -87,7 +105,7 @@
         <!--socail----------->
         <div class="social">
             <!--icons--------->
-            <a href="https://www.facebook.com/CPS-Sourcing-PTY-LTD-218153716290359/?ref=br_rs"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -108,7 +126,7 @@
                     <input type="email" placeholder="Example@gmail.com" />
                     <textarea name="message" placeholder="Write Message"></textarea>
                     <!--sumbit-btn----------->
-                    <button>SEND</button>
+                    <div class="submit-button"><button class="submit">SEND</button></div>
                 </form>
             </div>
 
@@ -121,7 +139,26 @@
                 tabindex="0"></iframe>
         </div>
     </section>
+    <style>
+        .submit-button {
+            padding-left: 22.5px;
+        }
 
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+            .c-inputs {
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                padding: 10px;
+            }
+
+
+
+            .contact-box {
+                padding-bottom: 200px;
+            }
+        }
+    </style>
 </body>
 
 </html>
